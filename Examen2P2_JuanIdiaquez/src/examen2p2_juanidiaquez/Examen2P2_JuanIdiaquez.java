@@ -14,7 +14,7 @@ public class Examen2P2_JuanIdiaquez {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
     
 }
