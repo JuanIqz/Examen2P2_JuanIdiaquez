@@ -4,11 +4,13 @@
  */
 package examen2p2_juanidiaquez;
 
+import java.io.Serializable;
+
 /**
  *
  * @author juanf
  */
-public class Usuario {
+public class Usuario implements Serializable {
     
     String Username;
     String Contra;
