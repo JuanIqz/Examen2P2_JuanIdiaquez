@@ -365,19 +365,6 @@ public class ArtistaJ extends javax.swing.JFrame {
             }
             referencia.add(nodo);
         }
-//        for (Lanzamientos AlSin : Lanzamiento) {
-//            DefaultMutableTreeNode referencia = ((DefaultMutableTreeNode) ((DefaultMutableTreeNode) modelo.getRoot()).getChildAt(0));
-//            DefaultMutableTreeNode nodo = new DefaultMutableTreeNode(album);
-//            for (Cancion cancion : album.getCanciones()) {
-//                nodo.add(new DefaultMutableTreeNode(cancion));
-//            }
-//            referencia.add(nodo);
-//        }
-        
-//        for (Single single : ((Artista) seleccionado).getSingles()) {
-//            DefaultMutableTreeNode referencia = ((DefaultMutableTreeNode) ((DefaultMutableTreeNode) modelo.getRoot()).getChildAt(1));
-//            referencia.add(new DefaultMutableTreeNode(single));
-//        }
         
         ArbolL.setModel(modelo);
     }//GEN-LAST:event_jButton2MouseClicked
