@@ -11,13 +11,13 @@ package examen2p2_juanidiaquez;
 public class Cancion {
  
     String Titulo;
-    double Tduracion;
+    String Tduracion;
     Lanzamiento Referencia;
 
     public Cancion() {
     }
 
-    public Cancion(String Titulo, double Tduracion, Lanzamiento Referencia) {
+    public Cancion(String Titulo, String Tduracion, Lanzamiento Referencia) {
         this.Titulo = Titulo;
         this.Tduracion = Tduracion;
         this.Referencia = Referencia;
@@ -31,11 +31,11 @@ public class Cancion {
         this.Titulo = Titulo;
     }
 
-    public double getTduracion() {
+    public String getTduracion() {
         return Tduracion;
     }
 
-    public void setTduracion(double Tduracion) {
+    public void setTduracion(String Tduracion) {
         this.Tduracion = Tduracion;
     }
 

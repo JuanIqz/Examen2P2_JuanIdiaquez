@@ -45,7 +45,7 @@ public class ClienteJ extends javax.swing.JFrame {
             .addGap(0, 651, Short.MAX_VALUE)
         );
 
-        jTabbedPane1.addTab("tab2", jPanel2);
+        jTabbedPane1.addTab("Dar Like", jPanel2);
 
         jToggleButton1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jToggleButton1.setText("Click Para Salir");
